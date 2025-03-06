@@ -35,3 +35,27 @@ let worstnumber= 22;
 console.log(luckynumber);
 
 console.log(worstnumber);
+
+// Can CHANGE the value stored in a variable 
+let mood = "happy";
+console.log(mood)
+mood = "sad";
+console.log(mood)
+
+// Can COPY the value from one variable into another
+let isHappy = true;
+let isThrilled;
+isThrilled = isHappy
+console.log(isThrilled)
+
+
+// MATH OPERATIONS 
+let score = 1;
+score = score + 6;
+console.log(score);
+score = score - 10;
+console.log(score)
+score = score * (-3);
+console.log(score)
+score = score / 3;
+console.log(score);
