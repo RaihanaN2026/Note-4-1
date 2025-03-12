@@ -59,3 +59,40 @@ score = score * (-3);
 console.log(score)
 score = score / 3;
 console.log(score);
+
+//STAING CONCATEANATION ( merging/combing)
+//QUOTES indicate STARING LITEARLS
+let greeting = "hello " + "friend";
+console.log(greeding);
+
+//Can combin string VARIABLES with staring LITEALS
+let username = "penguins_rock212";
+greeding = "welcome" + "username" + "!!!";
+console.log(greeding);
+
+//watch out for STRING CONSERVATIONS
+console.log( 4 + 5); //9 (adds the numbers)
+console.log("4" + 5); // 45 (concatenate, not add)
+console.log( 4 = '5'); // 45 (same as above!)
+
+
+
+
+/* FUNCTION:
+Reusable sets of code statements that perform a specific task or process
+ */
+
+
+// Example of CALLING (using) a funcion
+console.log("hello")
+
+// Example of DECLARING (creating) a function
+function skincare() {
+    //3 statements (steps/instructions)
+    console.log("1. Double cleanse");
+    console.log("2. Apply toner");
+    console.log("3. Moisturize");
+}
+// To CALL (run) our function, say its name
+skincare();
+skincare(); //repeated the routine again!
