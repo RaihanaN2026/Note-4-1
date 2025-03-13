@@ -7,7 +7,7 @@ console.log("Hey!");
 
 //This is a SINGLE-LINE comment
 // console. Log is a FUNCTION to display information
-console.log("this is the console/output")
+console.log("this is the console/output");
 
 //DECLEAR a VARIABLE to hold data
 //Use the let keyword to create the variable
@@ -15,11 +15,11 @@ let pokemon;
 
 //ASSIGN a value to that variable 
 //like packing an item into a box
-pokemon = "Pikachu" ;
+pokemon = "Pikachu";
 
 
 //Can DECLEAR and ASSOIN in one statement 
-let name = "Rai" ;
+let name = "Rai";
 
 // DECLEAR a new variable (buying a box)
 let luckynumber;
@@ -38,15 +38,15 @@ console.log(worstnumber);
 
 // Can CHANGE the value stored in a variable 
 let mood = "happy";
-console.log(mood)
+console.log(mood);
 mood = "sad";
-console.log(mood)
+console.log(mood);
 
 // Can COPY the value from one variable into another
 let isHappy = true;
 let isThrilled;
 isThrilled = isHappy
-console.log(isThrilled)
+console.log(isThrilled);
 
 
 // MATH OPERATIONS 
@@ -63,12 +63,12 @@ console.log(score);
 //STAING CONCATEANATION ( merging/combing)
 //QUOTES indicate STARING LITEARLS
 let greeting = "hello " + "friend";
-console.log(greeding);
+console.log(greeting);
 
 //Can combin string VARIABLES with staring LITEALS
 let username = "penguins_rock212";
 greeding = "welcome" + "username" + "!!!";
-console.log(greeding);
+console.log(greeting);
 
 //watch out for STRING CONSERVATIONS
 console.log( 4 + 5); //9 (adds the numbers)
@@ -96,3 +96,27 @@ function skincare() {
 // To CALL (run) our function, say its name
 skincare();
 skincare(); //repeated the routine again!
+
+
+/* FUNCTION are like RECIPES:
+Reliably perform the same set of actions for a consistent result.
+PARAMETERS (input) are like ingredients.
+RETURN values (output)-the completed meal 
+ */
+
+//Sandwich-making example of a function 
+// that requires PARAMETER and RETURNS data
+//( takes input, provides output)
+function makeSandwich(bread, filling, sauce) {
+    //function BODY (procedure/recipe steps)
+    let sandwich = filling + " sandwich with " + sauce + " on " + bread;
+        return sandwich;
+}
+//Call a function that RETURN data
+//store the output in a variable!
+let burger = makeSandwich("bun", "patty", "ketchup");
+console.log(burger);
+
+// TRY the function with different ARGUMENT ( input data)
+let caprese = makeSandwich("ciabatta", "mozz", "pesto");
+console.log(caprese);
