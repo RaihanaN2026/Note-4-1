@@ -106,17 +106,38 @@ RETURN values (output)-the completed meal
 
 //Sandwich-making example of a function 
 // that requires PARAMETER and RETURNS data
-//( takes input, provides output)
+//( takes input provides output)
 function makeSandwich(bread, filling, sauce) {
     //function BODY (procedure/recipe steps)
     let sandwich = filling + " sandwich with " + sauce + " on " + bread;
         return sandwich;
 }
 //Call a function that RETURN data
-//store the output in a variable!
+//Store the output in a variable!
 let burger = makeSandwich("bun", "patty", "ketchup");
 console.log(burger);
 
 // TRY the function with different ARGUMENT ( input data)
 let caprese = makeSandwich("ciabatta", "mozz", "pesto");
 console.log(caprese);
+
+//*** selection (CONDITIONALs)***
+//A conditional expression is like a QUESTION
+// where a Boolean (true/false) is the ANSWER
+
+// conditions that include operations
+//get evaluated and result in true/false
+console.log( 2 > 1);//true
+console.log( 2 == 1); //false   == means they are equal
+console.log( 2 != 1 ); // != means it's not equal
+console.log( (1 + 2) == (2 + 2) );
+console.log(2 >= 3);
+
+// ASSGIN a comparison result to a variable
+let result = (5 > 4); 
+console.log(result);
+
+//Comparing strings (text) uses dictionary order
+// TRUE if letter is later in order
+console.log('Z' < 'A');
+console.log('Aaniyah' == 'Ethan');
