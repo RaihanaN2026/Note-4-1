@@ -45,7 +45,7 @@ console.log(mood);
 // Can COPY the value from one variable into another
 let isHappy = true;
 let isThrilled;
-isThrilled = isHappy
+isThrilled = isHappy;
 console.log(isThrilled);
 
 
@@ -73,7 +73,7 @@ console.log(greeting);
 //watch out for STRING CONSERVATIONS
 console.log( 4 + 5); //9 (adds the numbers)
 console.log("4" + 5); // 45 (concatenate, not add)
-console.log( 4 = '5'); // 45 (same as above!)
+console.log( 4 + '5'); // 45 (same as above!)
 
 
 
