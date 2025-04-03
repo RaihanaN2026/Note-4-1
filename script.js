@@ -141,3 +141,26 @@ console.log(result);
 // TRUE if letter is later in order
 console.log('Z' < 'A');
 console.log('Aaniyah' == 'Ethan');
+
+// IF STATEMENTS evaluate a condition
+// then execute a block of code if TRUE
+let age = 17;
+// "Is your age equal to 16?"
+if (age == 16) {
+    console.log("Happy sweet sixteen");
+}
+else {
+    console.log("you can't have a sweet sixteen party");
+}
+
+// To test multiple conditions, use else-if statements
+let year = 2025;
+if (age == 18) {
+    console.log("Congrats on your first time voting");
+}
+else if (age > 18) {
+    console.log("Go voting!!!");
+}
+else {
+    console.log("you're too young to vote...");
+}
